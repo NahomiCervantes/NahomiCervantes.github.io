@@ -1,0 +1,59 @@
+.container {
+    width: 92.1%;
+    margin: auto;
+}
+
+#encabezado{
+    height: 168px;
+    display: flex;
+    justify-content: center;
+    background-image: url(../images/encabezado.jpg);
+}
+
+#encabezado h2{
+    font-family: fantasy;
+    font-size: 3em;
+    color: white;
+    margin: 119px 30px;
+}
+
+#menu {
+    height: 80px;
+    width: 90.9%;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    background-image: linear-gradient(0deg,rgba(255,255,255,0.00)0%, #000000 100%);
+}
+
+#menu ul {
+    padding: 0;
+}
+
+#menu li{
+    list-style-type: none;
+    padding: 0;
+}
+
+#menu>ul>li {
+    display: inline-block;
+}
+
+/* Quita El Subrayado */
+#menu li a {
+    text-decoration: none;
+    color: white;
+}
+
+#menu>ul>li>a {
+    padding: 10px;
+    transition: 0.5s;
+}
+
+#menu>ul>li>a:hover {
+    background-color: rebeccapurple;
+}
+
+#menu li ul {
+    display: none;
+}
