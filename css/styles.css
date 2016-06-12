@@ -6,7 +6,7 @@ h1,h2,h3,h4,h5,h6,body {
 h1 {
     font-size: 3em;
     color: black;
-    font-family: fantasy;
+    font-variant: small-caps;
     text-align: center;
 }
 
@@ -30,7 +30,7 @@ h1 {
 #menu {
     height: 80px;
     width: 100%;
-    display: flex;
+    display:flex;
     justify-content: center;
     position: fixed;
     background-image: linear-gradient(0deg,rgba(255,255,255,0.00)0%, #000000 100%);
@@ -72,7 +72,7 @@ h1 {
 /*NOTA SECUNDARIA INICIO*/
 #notas-secundarias {
     min-height: 300px;
-    width: 900px;
+    width: 950px;
     display: inline-block;
 }
 
@@ -102,7 +102,7 @@ h1 {
 }
 
 .cuerpo-nota-secundaria {
-    padding-left: 20px;
+    padding-left: 0px;
     padding-right: 10px;
 }
 
@@ -113,10 +113,9 @@ h1 {
 
 .boton {
     background: rgba(114, 14, 158, 1.0);
-    display: inline-block;;
+    display: inline-block;
     padding: 3px;
     box-shadow: 0px 1px 3px darkgray;
-    
 }
 
 .boton>div {
@@ -140,7 +139,7 @@ h1 {
 
 #publicidad img {
     width: 210px;
-    margin: 5px;
+    margin: 10px 5px;
 }
 
 #redes-sociales {
@@ -172,6 +171,42 @@ h1 {
     background: url('../images/facebook_twitter.png') -43px -43px;
 }
 /*PUBLICIDAD FIN*/
+
+#exitos{
+    border-top: 5px double rebeccapurple;
+    border-bottom: 5px double rebeccapurple;
+}
+
+.imagen-exito{
+    display: inline-flex;
+    margin-bottom: 20px;
+}
+
+#exitos img{
+    width: 130px;
+    height: 90px;
+    margin: 10px 5px;
+}
+
+#exitos p {
+    font-size: 2em;
+    font-variant: small-caps;
+    text-align: center;
+}
+
+/*PIE INICIO*/
+#pie {
+    min-height: 150px;
+    margin-top: 50px;
+}
+
+#politicas{
+    text-align: center;
+    border-bottom: 3px dotted rebeccapurple;
+    padding: 10px 0;
+    color: mediumpurple;
+}
+/*PIE FIN*/
 
 .flexible {
     display: flex;
