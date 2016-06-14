@@ -226,3 +226,61 @@ h1,h2,h3,h4,h5,h6,body {
 .flexible {
     display: flex;
 }
+
+/*COMENTARIOS*/
+
+.seccion-comentarios {
+    padding: 0 0 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+    text-transform: uppercase;
+    font-size: 15px;
+    color: #555;
+}
+
+.bloque-comentario {
+    padding: 0 0 20px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    border-bottom: 1px solid #e2e2e2;
+}
+
+.bloque-comentario a {
+    color: #167ac6;
+    cursor: auto;
+    text-decoration: none;
+}
+
+.autor-comentario{
+    float: left;
+    margin-right: 6px;
+}
+
+.autor-comentario img {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.vertical-align{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.caja-comentario {
+    display: block;
+    overflow: hidden;
+    position: relative;
+    text-align: left;
+}
+
+.agrega-comentario {
+    border: 1px solid #ddd;
+    border-top: 1px solid #d5d5d5;
+    color: #b8b8b8;
+    cursor: pointer;
+    margin-left: 60px;
+    min-height: 35px;
+    border-radius: 2px;
+    padding: 8px 10px 5px;
+    width: 1200px;
+}
